@@ -1,0 +1,63 @@
+body {
+
+    background-color: #E8EDDF;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.h1 {
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    color: #08090A;
+    font-weight: 900;
+}
+
+.selects select {
+    margin: 8px 6px;
+    background-color: #242423;
+    border: none;
+    color: #F5CB5C;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 250px;
+    height: 380px;
+    margin: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #242423;
+    box-shadow: 3px 1px 11px 1px #06474e;
+    border-radius: 20px;
+}
+
+.p {
+    text-align: center;
+    padding: 8px 8px;
+    color: #F5CB5C;
+    height: 86px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+.pId {
+    margin-top: 5px;
+    color: #CFDBD5;
+    font-weight: 700;
+}
+
+.card img {
+    border: 1px solid black;
+}
+
+/*Paleta de colores Default: CFDBD5(platinum) E8EDDF(Alabaster) F5CB5C (saffron) 242423 (eerie black)
+Paleta de colores: opcion 1: 08090A  A7A2A9 F4F7F5  575A5E 
